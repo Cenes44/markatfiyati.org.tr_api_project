@@ -45,8 +45,7 @@ async def search_prices(product_name: str) -> str:
 
 def main():
     """Sunucuyu başlatır."""
-    # Sunucuyu STDIO transport modu ile çalıştır
-    mcp.run(transport='stdio')
+    mcp.run()
 
 if __name__ == "__main__":
     main()
