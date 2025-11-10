@@ -45,7 +45,7 @@ async def search_prices(product_name: str) -> str:
 
 def main():
     """Sunucuyu başlatır."""
-    mcp.run(transport="sse", host="0.0.0.0", port=8080)
+    mcp.run(transport="sse")
 
 if __name__ == "__main__":
     main()
